@@ -1,0 +1,30 @@
+/* .app-upload {
+  width: 100vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+} */
+
+.container-upload {
+  margin: 30vh 5vw;
+}
+.upload-preview {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.upload-preview img {
+  width: 50%;
+  height: 50%;
+}
+
+.upload-app {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+

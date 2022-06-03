@@ -1,0 +1,27 @@
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    z-index: 100;
+    background-color: black;
+}
+
+.app-header h1 {
+    background: -webkit-linear-gradient(61deg, rgba(247, 53, 181, 1) 0%, rgba(102, 39, 81, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 5vw;
+}
+
+.header-link {
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
